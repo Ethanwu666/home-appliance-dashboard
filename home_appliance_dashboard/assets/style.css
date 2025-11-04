@@ -1,0 +1,31 @@
+/* Top bar */
+.top-navbar {
+    height: 60px;
+    padding: 6px 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+/* Product area */
+.product-row { margin-top: 8px; margin-bottom: 12px; }
+.product-row .card { border: none; }
+
+/* KPI card styles */
+.kpi-card { border-radius: 8px; padding: 10px; }
+
+/* Buttons spacing */
+button { margin-right: 8px; }
+
+/* Small responsive tweaks */
+@media (max-width: 768px) {
+    #product-image { display: none; }
+}
+
+/* Make charts look spaced */
+.charts-row { margin-top: 8px; }
+
+/* Regret badge */
+#no-regret-badge {
+    font-weight: 700;
+    color: #e94e1b;
+    margin-bottom: 6px;
+}
