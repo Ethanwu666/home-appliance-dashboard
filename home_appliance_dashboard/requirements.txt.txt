@@ -1,8 +1,0 @@
-pandas
-numpy
-dash
-dash-bootstrap-components
-plotly
-textblob
-nltk
-scikit-learn
